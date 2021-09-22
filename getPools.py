@@ -45,6 +45,7 @@ def main():
 		# catch errors if subgraph is down or internet connection bad
 		except:
 			print("Unexpected error:", sys.exc_info()[0]);
-
+	print();
+	
 if __name__ == '__main__':
 	main();
