@@ -1,7 +1,7 @@
 {
     "header": {
-        "stamp": 1632496912.3355653,
-        "numPools": 154
+        "stamp": 1632509605.3021169,
+        "numPools": 155
     },
     "pools": {
         "Weighted": [
@@ -167,6 +167,9 @@
             "0x9234f3a62154f7fcda5346c35d8d53f60865186400020000000000000000008d",
             "0xd1d9b4bafc40ef176cda387b10cf03b0fcaad9d8000200000000000000000099",
             "0xe172cfa66467c4b32ca9a97ac7ecef48be8df488000200000000000000000094"
+        ],
+        "Investment": [
+            "0xe7b1d394f3b40abeaa0b64a545dbcf89da1ecb3f00010000000000000000009a"
         ]
     }
 }
