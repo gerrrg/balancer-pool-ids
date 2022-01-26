@@ -1,7 +1,7 @@
 {
     "header": {
-        "stamp": 1643138386.7780082,
-        "numPools": 56
+        "stamp": 1643172836.5648649,
+        "numPools": 57
     },
     "pools": {
         "Weighted": [
@@ -58,13 +58,14 @@
             "0xf13df9563dc9268a773ad852fff80f5e913ebaf600020000000000000000000b",
             "0xf8deab1cd6469c77518ec6c1bec8da03cdc28a3c00020000000000000000002e"
         ],
+        "LiquidityBootstrapping": [
+            "0x088373a91ad7923ca342c20ee8555998abdc33ca000200000000000000000038",
+            "0xba4719c23ffaa338546ae93af3c298335549cde1000200000000000000000037"
+        ],
         "Stable": [
             "0x1533a3278f3f9141d5f820a184ea4b017fce2382000000000000000000000016",
             "0x386b5d43ba8b97c43d4afb4cdae7877a1b295e8a000000000000000000000020",
             "0x9be7de742865d021c0e8fb9d64311b2c040c1ec1000200000000000000000012"
-        ],
-        "LiquidityBootstrapping": [
-            "0xba4719c23ffaa338546ae93af3c298335549cde1000200000000000000000037"
         ]
     }
 }
