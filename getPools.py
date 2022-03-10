@@ -9,7 +9,7 @@ import balpy.graph.graph as balGraph
 def main():
 	
 	batch_size = 30;
-	networks = ["mainnet", "kovan", "polygon", "arbitrum"];
+	networks = ["mainnet", "kovan", "polygon", "arbitrum", "rinkeby", "goerli"];
 
 	poolsPath = "./pools/";
 	
