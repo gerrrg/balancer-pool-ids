@@ -1,7 +1,7 @@
 {
     "header": {
-        "stamp": 1648047768.2639716,
-        "numPools": 1273
+        "stamp": 1648047906.6716142,
+        "numPools": 1274
     },
     "pools": {
         "LiquidityBootstrapping": [
@@ -1289,6 +1289,7 @@
             "0xf4a5816edb678fb786bad45b6b297f795513ad7e000000000000000000000355"
         ],
         "StablePhantom": [
+            "0x3824f3d046e58edfee69d3fd119335e5e422bace000000000000000000000737",
             "0x8fd162f338b770f7e879030830cde9173367f3010000000000000000000004d8"
         ]
     }
