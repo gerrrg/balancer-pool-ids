@@ -7,6 +7,8 @@ Currently tracked networks:
 * Goerli testnet
 * Polygon
 * Arbitrum
+* Optimism (Balancer ❤️ BeethovenX)
+* Fantom (BeethovenX)
 
 ## If you want to run it yourself...
 ### Dependencies:
