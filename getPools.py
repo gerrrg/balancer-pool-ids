@@ -8,8 +8,8 @@ import balpy.graph.graph as balGraph
 
 def main():
 	
-	batch_size = 30;
-	networks = ["mainnet", "kovan", "polygon", "arbitrum", "rinkeby", "goerli"];
+	batch_size = 300;
+	networks = ["mainnet", "kovan", "polygon", "arbitrum", "rinkeby", "goerli", "fantom", "optimism"];
 
 	poolsPath = "./pools/";
 	
@@ -18,7 +18,13 @@ def main():
 		print();
 
 		# initialize subgraph
-		bg = balGraph.TheGraph(network);
+		customEndpoint = None;
+		if network == "fantom":
+			customEndpoint = "https://api.thegraph.com/subgraphs/name/beethovenxfi/beethovenx"
+		if network == "optimism":
+			customEndpoint = "https://api.thegraph.com/subgraphs/name/beethovenxfi/beethovenx-optimism"
+
+		bg = balGraph.TheGraph(network, customUrl=customEndpoint);
 		try:
 			# query subgraph
 			pools = bg.getV2PoolIDs(batch_size);
