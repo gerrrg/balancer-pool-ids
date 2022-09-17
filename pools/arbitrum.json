@@ -1,7 +1,7 @@
 {
     "header": {
-        "stamp": 1663445523.2926333,
-        "numPools": 341
+        "stamp": 1663446317.059927,
+        "numPools": 342
     },
     "pools": {
         "Weighted": [
@@ -353,7 +353,8 @@
             "0x9bf7c3b63c77b4b4f2717776f15a4bec1b532a280000000000000000000000c8"
         ],
         "ComposableStable": [
-            "0xcc98357eaf3e227bdef6b97780aae84bea9b02b00000000000000000000000fe"
+            "0xcc98357eaf3e227bdef6b97780aae84bea9b02b00000000000000000000000fe",
+            "0xfb5e6d0c1dfed2ba000fbc040ab8df3615ac329c000000000000000000000159"
         ]
     }
 }
