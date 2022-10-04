@@ -1,7 +1,7 @@
 {
     "header": {
-        "stamp": 1664833895.5811799,
-        "numPools": 456
+        "stamp": 1664891818.6912622,
+        "numPools": 457
     },
     "pools": {
         "LiquidityBootstrapping": [
@@ -473,6 +473,9 @@
             "0xcd04894ddd31a3ec6ec39fa53a4c163b8842bc1a0002000000000000000000a9",
             "0xd3d99628f3108ffeb8e7fc5319087d0f085aa15200020000000000000000006d",
             "0xe053685f16968a350c8dea6420281a41f72ce3aa00020000000000000000006b"
+        ],
+        "GyroCEMM": [
+            "0xd4fafceb3c775dbb3da836d4bacbdb32608121b400020000000000000000019a"
         ]
     }
 }
