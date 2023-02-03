@@ -1,7 +1,7 @@
 {
     "header": {
-        "stamp": 1675390072.6138906,
-        "numPools": 135
+        "stamp": 1675418739.1395786,
+        "numPools": 136
     },
     "pools": {
         "Weighted": [
@@ -101,6 +101,10 @@
             "0xfbbc111b691ba38d03b01bbfa2ac451745f9bca500020000000000000000002a",
             "0xfc157bcfd63f7c59aa04ef2e1e30cbd5c8ebc666000200000000000000000061"
         ],
+        "LiquidityBootstrapping": [
+            "0x0503dd6b2d3dd463c9bef67fb5156870af63393e00020000000000000000008f",
+            "0x8a819a4cabd6efcb4e5504fe8679a1abd831dd8f00020000000000000000008e"
+        ],
         "Linear": [
             "0x15873081c0aa67ad5c5dba362169d352e2a128a2000000000000000000000032",
             "0x3b2ff5888f1bdedbb45ece9f1c628356388d22cc000000000000000000000045",
@@ -147,9 +151,6 @@
         "MetaStable": [
             "0x4fd63966879300cafafbb35d157dc5229278ed2300020000000000000000002b",
             "0x7b50775383d3d6f0215a8f290f2c9e2eebbeceb200020000000000000000008b"
-        ],
-        "LiquidityBootstrapping": [
-            "0x8a819a4cabd6efcb4e5504fe8679a1abd831dd8f00020000000000000000008e"
         ]
     }
 }
