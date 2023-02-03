@@ -1,7 +1,7 @@
 {
     "header": {
-        "stamp": 1674678389.9992826,
-        "numPools": 134
+        "stamp": 1675390072.6138906,
+        "numPools": 135
     },
     "pools": {
         "Weighted": [
@@ -147,6 +147,9 @@
         "MetaStable": [
             "0x4fd63966879300cafafbb35d157dc5229278ed2300020000000000000000002b",
             "0x7b50775383d3d6f0215a8f290f2c9e2eebbeceb200020000000000000000008b"
+        ],
+        "LiquidityBootstrapping": [
+            "0x8a819a4cabd6efcb4e5504fe8679a1abd831dd8f00020000000000000000008e"
         ]
     }
 }
