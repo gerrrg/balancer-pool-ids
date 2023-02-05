@@ -1,7 +1,7 @@
 {
     "header": {
-        "stamp": 1675583840.2667294,
-        "numPools": 820
+        "stamp": 1675584757.5052114,
+        "numPools": 821
     },
     "pools": {
         "AaveLinear": [
@@ -762,6 +762,7 @@
             "0xfaeb6a8b5f15af77673666e51a44f6b9b6ca5da20002000000000000000000da",
             "0xfb46bc8fc0d06421d362a31b7230f39462efa79a000200000000000000000414",
             "0xfd85de7268412b12f33c107d3797c3d73eb58c5500020000000000000000028d",
+            "0xfddd8ca59d193f3f9683b084f8289aa6abd14ede000100000000000000000453",
             "0xff083f57a556bfb3bbe46ea1b4fa154b2b1fbe8800020000000000000000029b"
         ],
         "HighAmpComposableStable": [
