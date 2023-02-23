@@ -9,7 +9,7 @@ import balpy.graph.graph as balGraph
 def main():
 	
 	batch_size = 300;
-	networks = ["mainnet", "kovan", "polygon", "arbitrum", "rinkeby", "goerli", "fantom", "optimism"];
+	networks = ["mainnet", "kovan", "polygon", "arbitrum", "rinkeby", "goerli", "fantom", "optimism", "gnosis"];
 
 	poolsPath = "./pools/";
 	
@@ -23,6 +23,8 @@ def main():
 			customEndpoint = "https://api.thegraph.com/subgraphs/name/beethovenxfi/beethovenx"
 		if network == "optimism":
 			customEndpoint = "https://api.thegraph.com/subgraphs/name/beethovenxfi/beethovenx-optimism"
+		if network == "gnosis":
+			customEndpoint = "https://api.thegraph.com/subgraphs/name/balancer-labs/balancer-gnosis-chain-v2"
 
 		bg = balGraph.TheGraph(network, customUrl=customEndpoint);
 		try:
