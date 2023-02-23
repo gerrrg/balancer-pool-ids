@@ -2,13 +2,14 @@
 Cached poolIds for Balancer V2 pools.
 Currently tracked networks:
 * Ethereum mainnet
-* Kovan testnet
-* Rinkeby testnet
-* Goerli testnet
 * Polygon
 * Arbitrum
 * Optimism (Balancer ❤️ BeethovenX)
+* Gnosis Chain
 * Fantom (BeethovenX)
+* Goerli testnet
+* Kovan testnet
+* Rinkeby testnet
 
 ## If you want to run it yourself...
 ### Dependencies:
