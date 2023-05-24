@@ -1,7 +1,7 @@
 {
     "header": {
-        "stamp": 1682697756.5726178,
-        "numPools": 199
+        "stamp": 1684891659.1732926,
+        "numPools": 200
     },
     "pools": {
         "Weighted": [
@@ -217,6 +217,9 @@
         "MetaStable": [
             "0x4fd63966879300cafafbb35d157dc5229278ed2300020000000000000000002b",
             "0x7b50775383d3d6f0215a8f290f2c9e2eebbeceb200020000000000000000008b"
+        ],
+        "GyroE": [
+            "0x58910d5bd045a20a37de147f8acea75b2d881f610002000000000000000000d3"
         ],
         "YearnLinear": [
             "0x81fc12c60ee5b753cf5fd0adc342dfb5f3817e320000000000000000000000a6"
