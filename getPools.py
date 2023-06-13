@@ -9,13 +9,13 @@ import balpy.graph.graph as balGraph
 def main():
 	
 	batch_size = 300;
-	networks = ["mainnet", "kovan", "polygon", "arbitrum", "rinkeby", "goerli", "fantom", "optimism", "gnosis"];
+	networks = ["mainnet", "polygon", "arbitrum", "goerli", "fantom", "optimism", "gnosis", "polygon-zk"];
 
 	poolsPath = "./pools/";
 	
 	for network in networks:
 
-		print();
+		print(network);
 
 		# initialize subgraph
 		customEndpoint = None;
@@ -25,7 +25,8 @@ def main():
 			customEndpoint = "https://api.thegraph.com/subgraphs/name/beethovenxfi/beethovenx-optimism"
 		if network == "gnosis":
 			customEndpoint = "https://api.thegraph.com/subgraphs/name/balancer-labs/balancer-gnosis-chain-v2"
-
+		if network == "polygon-zk":
+			customEndpoint = "https://api.studio.thegraph.com/query/24660/balancer-polygon-zk-v2/version/latest"
 		bg = balGraph.TheGraph(network, customUrl=customEndpoint);
 		try:
 			# query subgraph
