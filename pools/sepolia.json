@@ -1,7 +1,7 @@
 {
     "header": {
-        "stamp": 1686674764.0610886,
-        "numPools": 15
+        "stamp": 1688144513.9928095,
+        "numPools": 16
     },
     "pools": {
         "YearnLinear": [
@@ -31,6 +31,9 @@
         ],
         "SiloLinear": [
             "0xa149cf2d795aab83a15673f5beade9361e4e3f65000000000000000000000004"
+        ],
+        "Managed": [
+            "0xe458224ca8d6605c87b73e92aa5cb7a4e77770f3000100000000000000000008"
         ],
         "AaveLinear": [
             "0xe4efd99f3c03778ba913eb578c599329634e2bd7000000000000000000000003"

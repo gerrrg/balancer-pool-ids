@@ -1,7 +1,7 @@
 {
     "header": {
-        "stamp": 1687903338.4476984,
-        "numPools": 31
+        "stamp": 1688144513.2736416,
+        "numPools": 32
     },
     "pools": {
         "YearnLinear": [
@@ -45,6 +45,9 @@
         ],
         "LiquidityBootstrapping": [
             "0x3c87ff3e9307dbebfae720e04c6439e49f79bf9b000200000000000000000000"
+        ],
+        "Managed": [
+            "0x522ee506a2f63d0ae1d79d6f5dbd9d0bca32c866000100000000000000000007"
         ],
         "AaveLinear": [
             "0xbfd65c6160cfd638a85c645e6e6d8acac5dac935000000000000000000000004"
