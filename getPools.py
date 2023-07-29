@@ -30,13 +30,15 @@ def main():
 		if network == "polygon-zk":
 			customEndpoint = "https://api.studio.thegraph.com/query/24660/balancer-polygon-zk-v2/version/latest"
 		bg = balGraph.TheGraph(network, customUrl=customEndpoint);
+
+		# only save this data if there is no file, or if the new data has more pools than the old data
+		poolFilePath = poolsPath + network + ".json";
+		saveData = False;
+
 		try:
 			# query subgraph
 			pools = bg.getV2PoolIDs(batch_size);
 			
-			# only save this data if there is no file, or if the new data has more pools than the old data
-			poolFilePath = poolsPath + network + ".json";
-			saveData = False;
 			if os.path.isfile(poolFilePath):
 				with open(poolFilePath, 'r') as f:
 					oldPools = json.load(f);
@@ -45,17 +47,23 @@ def main():
 			else:
 				saveData = True;
 
-			# save data to file, nicely formatted with indents
-			if saveData:
-				print("Saving", network, "data to", poolFilePath);
-				with open(poolFilePath, 'w') as f:
-					json.dump(pools, f, indent=4);
-			else:
-				print("No new pools, skipping", network);
-		
+		# delete empty or malformed json
+		except json.decoder.JSONDecodeError:
+			print("Decoder error -- deleting", poolFilePath);
+			os.remove(poolFilePath);
+			saveData = False;
 		# catch errors if subgraph is down or internet connection bad
 		except:
 			print("Unexpected error:", sys.exc_info()[0]);
+
+		# save data to file, nicely formatted with indents
+		if saveData:
+			print("Saving", network, "data to", poolFilePath);
+			with open(poolFilePath, 'w') as f:
+				json.dump(pools, f, indent=4);
+		else:
+			print("No new pools or query failed; skipping", network);
+
 	print();
 	
 if __name__ == '__main__':
